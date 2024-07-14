@@ -110,3 +110,24 @@
   font-weight: 400;
   margin-bottom: 80px;
 }
+
+/* about section responsive */
+@media screen and (max-width: 576px) {
+  .about {
+    background-image: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid olivedrab;
+  }
+  .img-about {
+    width: 100%;
+    background-color: rgba(210, 105, 30, 0.76);
+  }
+  .img-about img {
+  }
+}
+.about-content {
+  width: 100%;
+  padding: 20px;
+}
