@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 .container {
-  width: 1320px;
+  width: calc(100% -100px);
   height: 780px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 100px;
+  /* margin-right: 100px; */
   /* background-image: url(./images/shapes/Group-8450.png);
   background-repeat: no-repeat; */
 }
@@ -27,7 +29,7 @@
   font-weight: 500;
   margin-bottom: 50px;
 }
-.container button {
+.btn {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 18px;
@@ -43,8 +45,9 @@
   transition: 1s ease-in;
 }
 .container img {
-  /* width: 680px;
-  height: 742px; */
+  width: 792px;
+  height: 843.96px;
+  margin-bottom: 100px;
 }
 
 /* banner responsive */
@@ -58,5 +61,52 @@
   }
   .container img {
     width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
   }
+}
+
+/* Banner Responsive ends here */
+
+/* about section styles start */
+
+.about {
+  width: 1320px;
+  height: 550px;
+  margin: 0 auto;
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-about {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.about-content {
+  width: 50%;
+  padding-right: 180px;
+}
+.img-about img {
+  width: 298px;
+  height: 486px;
+  margin-top: 50px;
+}
+
+.about-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(112, 112, 112);
+  margin-bottom: 28px;
+}
+
+.about-content p {
+  color: rgb(24, 25, 31);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 80px;
 }
